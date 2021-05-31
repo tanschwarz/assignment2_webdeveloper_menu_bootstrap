@@ -1,0 +1,116 @@
+/* Set up the theme (font/background/font size */
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #16ADBB;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*********** BEGIN NAVIGATION BAR STYLE ***********/
+#header-nav{
+    background-color: #165ABB;
+    border-radius: 0; /* straighten borders */
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #FFFFe6;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: .5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {/*Disable the underline from links */
+    text-decoration: none;
+}
+
+/*Styling of list*/
+#nav-list { /* increase to margin by 10px*/
+    margin-top: 10px;
+}
+#nav-list a {
+    color:#FFFFe6;
+    text-align: center;  
+}
+#nav-list a:hover {/*change colour when hovering over it*/
+    background: #ABF4D7;
+    color: #165ABB;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /*styling the buttons*/
+    border: 1px solid #FFFFe6;
+  }
+.navbar-header button.navbar-toggle {/*need "clear" as the dropdown menu is floating and hence the yellow header stops rights after the button*/
+    clear: both;
+    margin-top: -40px;
+  }
+/*********** END NAVIGATION BAR STYLE ***********/
+
+
+/***************** BEGIN HEADING ******************/
+#main-heading {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #165ABB;
+}
+/***************** END HEADING ******************/
+
+
+/***************** BEGIN TILES ******************/
+.category-tile { /*position and style of all tiles*/
+    position: relative;
+    height: 700px;
+    width: 100%;
+    border: 2px solid #FFFFe6;
+    background-color: #165ABB;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.category-tile h3 {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 1;
+}
+#category-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#back-top {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+#link-top a {
+    color:#FFFFe6;
+    text-align: center;  
+}
+/***************** END MENU CATEGORIES PAGE ******************/
+
+
+/******** LARGE DEVICES **********/
+@media (min-width: 1200px) {
+}
+
+/******** MEDIUM DEVICES **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/******** SMALL DEVICES **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+
+
+
+
+
+
+

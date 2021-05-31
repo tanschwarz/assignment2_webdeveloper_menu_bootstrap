@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- GOOGLE FONTS BEGIN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
+    <!-- GOOGLE FONTs END -->
+
+  </head>
+<body>
+    <header>
+        <!-- NAVIGATION BAR BEGIN -->
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container"> <!-- regular container here that changes depending on the size of the browser -->
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <h1>Food, LLC</h1>
+                    </div>
+
+                    <!--COLLAPSABLE MENU BAR with THREE BUTTONS-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                      
+                </div> <!--closing navabr-header-->
+
+                <!--COLLAPSABLE LIST-->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="#chicken-heading">Chicken</a>
+                        </li>
+                        <li class="visible-xs">
+                            <a href="#beef-heading">Beef</a>
+                        </li>
+                        <li class="visible-xs">
+                            <a href="#sushi-heading">Sushi</a>
+                        </li>
+                    </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+              </div><!-- .container -->
+            </nav><!-- #header-nav -->
+    </header>
+
+
+<!-- MAIN SECTION / BODY -->
+<div id="main-content" class="container-fluid"> <!-- main container for body -->
+    <h2 id="main-heading" class="text-center"> Our Menu</h2>
+
+    <!---------------- BEGIN TILES ---------------> 
+    <section class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="category-tile">
+                <h3 id="chicken-heading" class="text-center">Chicken</h3>
+                <p id="category-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur ex. Nam cumque, alias nostrum ducimus, aliquam cum, voluptatem vero in qui impedit vitae itaque culpa asperiores perspiciatis voluptatibus nihil.</p>
+                <div id="link-top">
+                    <a href="#main-heading"><div id="back-top">Go back to top</div></a>
+                </div>
+            </div>
+        </div> <!--end grid system tile 1-->
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="category-tile">
+                <h3 id="beef-heading" class="text-center">Beef</h3>
+                <p id="category-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur ex. Nam cumque, alias nostrum ducimus, aliquam cum, voluptatem vero in qui impedit vitae itaque culpa asperiores perspiciatis voluptatibus nihil.</p>
+                <div id="link-top">
+                    <a href="#main-heading"><div id="back-top">Go back to top</div></a>
+                </div>
+            </div>
+        </div> <!--end grid system tile 2-->
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="category-tile">
+                <h3 id="sushi-heading" class="text-center">Sushi</h3>
+                <p id="category-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur ex. Nam cumque, alias nostrum ducimus, aliquam cum, voluptatem vero in qui impedit vitae itaque culpa asperiores perspiciatis voluptatibus nihil.</p>
+                <div id="link-top">
+                    <a href="#main-heading"><div id="back-top">Go back to top</div></a>
+                </div>    
+            </div>
+        </div> <!--end grid system tile 3-->
+    </section> <!--END tiles-->
+</div> <!-- END container -->
+
+
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
